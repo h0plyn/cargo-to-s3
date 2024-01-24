@@ -22,6 +22,8 @@ Get your sitemap from cargo:
 bun run get-sitemap.js
 ```
 
+Run the backup:
+
 ```bash
 bun run index.ts
 ```
