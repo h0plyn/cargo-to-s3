@@ -4,6 +4,12 @@ Script to backup your Cargo Collective project to S3 while retaining the file st
 
 ## Usage
 
+Copy the example env file to env
+
+```bash
+cp .env.example .env
+```
+
 Set your `CARGO_SITEMAP_PATH` and `S3_FOLDER` environment variables in `.env`
 
 Set your AWS keys in your shell
@@ -15,12 +21,6 @@ bun install
 ```
 
 To run:
-
-Get your sitemap from cargo:
-
-```bash
-bun run get-sitemap.js
-```
 
 Run the backup:
 
